@@ -9,7 +9,7 @@ Here are the tasks implemented so far:
 
 ### 1 - Binary heap
 #### Description
-I'll compare whole performance of binary heap, all kind of operations like: add, remove, search, etc. The program will be given a file with testing data, and it will construct
+I'll compare whole performance of binary heap, all kind of operations like: add, or remove. The program will be given a file with testing data, and it will construct
 a binary heap from it. Then, it will perform all kind of operations on it, and measure the execution time of programs. The _test.py_ script in BinaryHeap folder will manage all tests and print the results in the pretty way.
 Btw. I implemented min heap versions.
 #### Execution of _test.py_:
