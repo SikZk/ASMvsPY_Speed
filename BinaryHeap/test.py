@@ -16,10 +16,14 @@ def main():
     write_data_to_file(data, "./test.txt")
 
     # Measure the time of Python implementation
-    python_time = measure_time_of_os_command_execution("python3 python/BinaryHeap.py")
-    print("Python time for binary heap: %f ms" % python_time)
+    python_time = measure_time_of_os_command_execution("python3 python/a.py")
 
     # Measure the time of Assembly implementation
+    assembly_time = measure_time_of_os_command_execution("./assembly/binaryheap")
+
+
+    print("\n\nPython time for binary heap: %f ms" % python_time)
+    print("Assembly time for binary heap: %f ms" % assembly_time)
 
 
 
