@@ -60,8 +60,6 @@ def main():
     data = read_data_from_file("./test.txt")
     for d in data:
         heap.insert(d)
-    for i in range (1,1000):
-        heap.delete_min()
 
 
 if __name__ == "__main__":
