@@ -2,8 +2,6 @@ global _start                                       ; declaring _start as global
 
 section .data                                       ; declaring section .data where we will store data
     file_path db './test.txt', 0x00                 ; specifying file path
-    hello db 'Hello, World!', 0x0a
-    hello_len equ $ - hello
 
 section .bss                                        ; declaring section .bss (Block started by symbol), where we will store uninitialized data
     file_size resq 0x01                             ; reserving quadword (8 bytes = 64 bits) for file size, resq stands for reserving quadword
